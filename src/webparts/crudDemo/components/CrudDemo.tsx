@@ -63,7 +63,7 @@ export default class CrudDemo extends React.Component<ICrudDemoProps, IMyCompone
   async EditNew()
   {
     console.log('dfcec');
-    
+    //'cnscnme'
     var newUrl=this.url+'getItemById('+this.state.presentId+')';
     const request:any={};
    request.headers={
